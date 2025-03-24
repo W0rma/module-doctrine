@@ -32,6 +32,9 @@
         "symfony/doctrine-bridge": "^5.4.35 || ^6.4.3 || ^7.0",
         "symfony/uid": "^5.4.35 || ^6.4.3 || ^7.0"
     },
+    "conflict": {
+        "behat/gherkin": "~4.10.0"
+    },
     "minimum-stability": "dev",
     "autoload": {
         "classmap": [
